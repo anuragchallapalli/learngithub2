@@ -1,0 +1,379 @@
+/* Global Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font: 12px/18px 'Roboto', sans-serif;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Common Classes
+--------------------------------------------------------------------------
+========================================================================*/
+.clear {
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+img.img-left {
+	float: left;
+}
+
+img.img-right {
+	float: right;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+.clear {
+    
+    clear: both;
+}
+
+.margin-0 {
+    
+    margin: 0;
+}
+
+/* Container
+--------------------------------------------------------------------------
+========================================================================*/
+.container-fluid {
+    
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.margin-0 {
+    
+    margin: 0 !important;
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+.padding-a-10 {
+    padding: 10px;
+}
+
+.padding-a-5 {
+    padding: 5px;
+}
+
+li {
+    
+    list-style: none;
+}
+
+a {
+    
+    text-decoration: none;
+}
+/* Header
+--------------------------------------------------------------------------
+========================================================================*/
+header {
+	
+}
+
+/* Nav
+--------------------------------------------------------------------------
+========================================================================*/
+nav {
+	
+}
+
+.navbar {
+    
+    background: #371F9B;
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 9px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0 2px 9px rgba(0,0,0,0.29);
+    box-shadow: 0 2px 9px rgba(0,0,0,0.29);
+    border: none;
+
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600 !important;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    padding: 4px 4px 4px 8px;
+    line-height: 28px;
+    margin-left: 0 !important;
+    border-right:1px solid rgba(255,255,255,0.5);
+}
+
+.navbar-brand span {
+    
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.navsub-hdng {
+    
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.navsub-hdng span {
+    
+    color: orange;
+    line-height: 45px;
+}
+
+.navbar-nav {
+    
+    margin-top: 13px;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>li>a  {
+    
+    background: rgba(255,255,255,0.3);
+    border-radius: 4px;
+    font-size: 14px;
+    color:#fff !important;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 7px 15px;
+    
+}
+
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:hover  {
+    
+    background: rgba(252,165,25,1);
+    border-radius: 4px;
+    font-size: 14px;
+    color:#fff !important;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 7px 15px;
+    
+}
+
+.navbar-nav>li {
+    
+    margin-right: 10px;
+}
+
+.download-link span {
+    
+    color: #fff;
+    font-size:32px;
+    line-height: 45px;
+    font-weight: 300 !important;
+}
+
+#download-blk>.active>a, #download-blk>.active>a:focus, #download-blk>.active>a:hover, #download-blk>li>a, #download-blk>li>a:hover  {
+    
+    background:rgba(255,255,255,0) !important;
+    border-radius:0 !important;
+    font-size: 14px;
+    color:#fff !important;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 7px 15px;
+    
+}
+
+#download-blk {
+    margin-top:0 !important;
+}
+
+/* Content
+--------------------------------------------------------------------------
+========================================================================*/
+#content-wrap {
+	
+}
+
+.category-panel i {
+    
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 22px;
+    font-style: normal;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.category-panel .well small {
+    text-align: center;
+    color: #2e2e2e;
+    float: left;
+    width: 100%;
+    font-size: 9px;
+    line-height: 14px;
+}
+
+
+.category-panel .well {
+    border-color: #dcdcdc;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) inset, 0 0px 0 rgba(255, 255, 255, 0);
+    background: none;
+    border:none;
+    border-radius: 4px;
+    margin-bottom:5px;
+    min-height: 20px;
+    width: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        
+}
+
+.category-panel .well:hover {
+    
+    background: #ff920a;
+   
+}
+
+.category-panel .well:hover i,.category-panel .well:hover small {
+    
+     color: #fff;
+
+}
+
+.category-panel p {
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: right;
+}
+
+.activity-stats {
+    
+    border-top: 1px solid #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    padding: 0;
+}
+
+.activity-stats .panel { 
+    margin-bottom: 0;
+    width:25%;
+    border-color: #2e2e2e;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 0;
+}
+
+.activity-stats .panel .panel-heading {
+    
+    background: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+.activity-stats .panel .panel-heading span {
+    
+    float: right;
+    font-size: 18px;
+}
+
+.activity-stats .panel .panel-body p {
+    
+    font-size: 13px;
+    float: left;
+    width: 100%;
+    line-height: 24px;
+}
+.activity-stats .panel .panel-body span {
+    
+    float: right;
+    color: red;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+/* Footer
+--------------------------------------------------------------------------
+========================================================================*/
+footer {
+	
+}
